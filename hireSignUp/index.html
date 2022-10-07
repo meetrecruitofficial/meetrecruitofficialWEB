@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/signUp/signup.css" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @media screen and (min-width: 996px) {
+        .form {
+          margin: 60px 300px;
+        }
+      }
+      p{
+        text-align: end;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 8px;
+        color:  #00557D;
+      }
+      h1{
+        font-size: 45px;
+        font-weight: 500;
+        padding: 10px 25px;
+        text-align: center;
+      }
+      .checkbox{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 8px;
+        color:  #00557D;
+      }
+
+      .checkbox input {
+        
+      }
+    </style>
+    <title>Sign up to hire talent</title>
+  </head>
+  <body>
+    <section class="resetPassword-section">
+      <div class="container-fluid">
+        <div class="row" style="height: 100vh">
+          <div class="col-md-12">
+                <div class="form">
+                    <p>Looking for work? <strong>Apply as talent</strong></p> <br><br>
+                    <h1>Sign up to hire talent</h1>
+                    <form>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                  
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="First Name"
+                                  />
+                                </div>
+                          </div>
+                          <div class="col-md-6">
+                              
+                          <div class="mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Last Name"
+                            />
+                          </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                  
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Company name"
+                                  />
+                                </div>
+                          </div>
+                          <div class="col-md-6">
+                              
+                          <div class="mb-4">
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Company email"
+                            />
+                          </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                            <div class="mb-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Company address"
+                            />
+                            </div>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                <select id="country" name ="country" class="form-control">
+                                    <option selected>Select Country</option>
+                                </select>
+                                </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                  <select name ="state" id ="state" class="form-control">
+                                      <option selected>Select State</option>
+                                  </select>
+                                </div>
+                          </div>
+      
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                  
+                                  <input
+                                    type="password"
+                                    class="form-control"
+                                    placeholder="Password"
+                                  />
+                                </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="mb-3">
+                                  
+                                  <input
+                                    type="password"
+                                    class="form-control"
+                                    placeholder="Comfirm Password"
+                                  />
+                                </div>
+                          </div>
+
+                          <div class="checkbox">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label mt-2 px-2" for="">
+                                    Send me emails with tips on how to find talents that fit my needs
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label mt-2 px-2" for="">
+                                    I understand and agree to meetrecruit’s Terms of service, user agreement and privacy policy
+                                </label>
+                              </div>
+                          </div>
+
+                          <div class="my-3">
+                            <input type="submit" value="Sign Up" class="btn btn-primary w-100">
+                        </div>
+                          </div>
+                          
+                      </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/signUp/countries.js"></script>
+
+    <script language="javascript">
+      populateCountries("country", "state");
+    </script>
+  </body>
+</html>
