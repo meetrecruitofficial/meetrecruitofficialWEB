@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+h1{
+    font-weight: 700!important;
+    color: #00557D;
+}
+.btn-dark{
+    background: #00557D!important;
+    color: #fff!important;
+}
+.head{
+    width: 100%!important;
+    height: 100px!important;
+    border-style: solid;
+    border-color: #00557D;
+}
+.navigation{
+    width: 100%!important;
+    height: 100px;
+    align-items: center;
+}
+/* main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} */
+.gallery{
+    
+}
+.img1,.img2,.img3,.img4,
+.img5,.img6,.img7,.img8, .img9{
+    height: 200px!important;
+}
+.img9{
+    Width:368px;
+    Height:143px;
+}
+.img1{
+   
+    /* background: url("../img/d6-img1.png")no-repeat center center/cover!important; */
+} 
+.img2{
+    /* background: url("../img/d6-img2.png")no-repeat center center/cover!important; */
+} 
+.img3{
+    /* background: url("../img/d6-img3.png")no-repeat center center/cover!important; */
+}
+.img4{
+    /* background: url("../img/d6-img4.png")no-repeat center center/cover!important; */
+}
+.img5{
+    /* background: url("../img/d6-img5.png")no-repeat center center/cover!important; */
+}
+.img6{
+    /* background: url("../img/d6-img6.png")no-repeat center center/cover!important; */
+}
+.img6{
+    /* background: url("../img/d6-img7.png")no-repeat center center/cover!important; */
+}
+.img6{
+    /* background: url("../img/d6-img8.png")no-repeat center center/cover!important; */
+}

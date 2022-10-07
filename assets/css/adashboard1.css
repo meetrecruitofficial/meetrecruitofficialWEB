@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+h1{
+    font-weight: 700!important;
+    color: #00557D;
+}
+.head{
+    width: 100%!important;
+    height: 100px!important;
+    border-style: solid #00557D;
+}
+.navigation{
+    width: 100%!important;
+    height: 100px;
+    align-items: center;
+
+}
+nav .logo{
+
+    /* background: url("../img/meet-logo.png")no-repeat
+    center center/cover; */
+}
+button{
+    /* width: 100%; */
+    /* padding: 0.5rem 4rem!important;  */
+    margin-bottom: 2rem!important; 
+    border-color: #00557D;
+}
+.btn{
+    /* width: 50%!important; */
+}
+.sec1, .sec2{
+    width: 100%!important;
+}
