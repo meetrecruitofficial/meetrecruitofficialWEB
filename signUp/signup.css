@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  color: #55B1DF;
+}
+input, select {
+border: 1px solid #55B1DF !important;
+padding: 12px !important;
+border-radius: 10px !important;
+}
+input:focus, select:focus {
+box-shadow: none !important;
+}
+input::placeholder {
+color: #55B1DF;
+
+}
+h1 {
+color: #00557D;
+font-weight: 500;
+font-size: 45px;
+line-height: 60px;
+}
+@media screen and (min-width: 996px) {
+.form {
+margin: 60px 100px;
+}
+}
+
+.btn-primary {
+background-color: #00557D !important;
+color: #fff;
+border: none;
+transition: all 380ms ease;
+}
+.btn-primary:hover {
+filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+.forgot {
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.logo-img {
+margin-top: 300px;
+}
+.welcome {
+margin-top: 80px;
+}
+
+
+
+
+
+
+
