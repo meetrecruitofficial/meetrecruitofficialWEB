@@ -381,15 +381,6 @@ loginForm.addEventListener('submit', async function (evt) {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-            fname: fname,
-            lname: lname,
-            phone: phone,
-            sex: sex,
-            age: '50',
-            country: country,
-            skills :'Developer',
-            level :skillLevel,
-            state : state,
             email: email,
             password : password,
         })
@@ -398,7 +389,6 @@ loginForm.addEventListener('submit', async function (evt) {
         .then(data => {
             const message = data.message;
             const token = data.token;
-            const error = data.error;
             if (message) {
                 swal({
                     icon: "error",
@@ -416,7 +406,7 @@ loginForm.addEventListener('submit', async function (evt) {
                 localStorage.setItem('token',token)
                 swal({
                     icon: "success",
-                    text: "Sign-Up successful",
+                    text: "login successful",
                     button: false,
                 })
                 setTimeout(() => { location.assign('/'); }, 1700);
