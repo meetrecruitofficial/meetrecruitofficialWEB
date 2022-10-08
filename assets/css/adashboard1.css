@@ -9,7 +9,23 @@ h1{
 .head{
     width: 100%!important;
     height: 100px!important;
-    border-style: solid #00557D;
+    border-style: solid;
+    border-color: #00557D;
+}
+.btn-primary{
+    color: #fff!important;
+    border: none!important;
+    background: #00557D!important;
+}
+.btn-outline-primary{
+    color: #00557D!important;
+    border-style: solid!important;
+    border-color: #00557D!important;
+}
+.btn-outline-primary:hover{
+    color: #fff!important;
+    border: none!important;
+    background: #00557D!important;
 }
 .navigation{
     width: 100%!important;
