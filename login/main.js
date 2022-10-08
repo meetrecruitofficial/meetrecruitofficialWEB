@@ -41,7 +41,7 @@ loginForm.addEventListener('submit', async function (evt) {
                     text: "login successful",
                     button: false,
                 })
-                setTimeout(() => { location.assign('/'); }, 1700);
+                setTimeout(() => { location.assign('/index'); }, 1700);
                 // setTimeout(() => { location.assign('/index'); }, 1000);
             }
         })
