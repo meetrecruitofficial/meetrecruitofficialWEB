@@ -25,7 +25,7 @@ color: #55B1DF;
 h1 {
 color: #00557D;
 font-weight: 500;
-font-size: 45px;
+font-size: 55px;
 line-height: 60px;
 }
 @media screen and (min-width: 996px) {
@@ -52,7 +52,7 @@ line-height: 18px;
 }
 
 .logo-img {
-margin-top: 300px;
+margin-top: 100px;
 }
 .welcome {
 margin-top: 80px;
