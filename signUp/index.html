@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="/signUp/signup.css" />
-    <!-- Fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>SignUp</title>
-  </head>
-  <body>
-    <!-- <section id="signup">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="/signUp/signup.css" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>SignUp</title>
+</head>
+
+<body>
+  <!-- <section id="signup">
       <div id="text">
         <h1>Welcome!</h1>
         <p>We’ve been expecting you</p>
@@ -93,154 +87,133 @@
       </div>
     </section> -->
 
-    <section class="signUp-section">
-      <div class="container-fluid">
-        <div class="row" style="height: 100vh">
-          <div class="col-md-5 text-center" style="background: #55B1DF;">
-            <div class="welcome">
-                <h1 class="mb-3 text-dark pt-5">Welcome</h1>
+  <section class="signUp-section">
+    <div class="container-fluid">
+      <div class="row" style="height: 100vh">
+        <div class="col-md-5 text-center" style="background: #55B1DF;">
+          <div class="welcome">
+            <h1 class="mb-3 text-dark">Welcome</h1>
             <p class="text-dark">We have been expecting you</p>
             <div class="logo-img">
-                <a href="#"><img src="../public/img/MEETRECRUITlogo.png" class="img-fluid w-50" alt=""></a>
-            </div>
+              <a href="#"><img src="../public/img/MEETRECRUITlogo.png" class="img-fluid w-50" alt=""></a>
             </div>
           </div>
-          <div class="col-md-7">
-            <div class="form">
-              <h1>Sign Up</h1>
-              <p>Create account to continue</p>
-              <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="First Name"
-                            />
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        
-                    <div class="mb-4">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Last Name"
-                      />
-                    </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            
-                            <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Email Address"
-                            />
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        
-                    <div class="mb-4">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Phone"
-                      />
-                    </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <select class="form-control">
-                                <option value="gender">Gender</option>
-                                <option value="gender">Male</option>
-                                <option value="gender">Female</option>
-                                <option value="gender">Prefer not say</option>
-                            </select>
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <select class="form-control">
-                                <option selected>Level</option>
-                                <option value="junior">Junior</option>
-                                <option value="intermediate">Intermediate</option>
-                                <option value="senior">Senior</option>
-                            </select>
-                          </div>
-                    </div>
-                    </div>
+        </div>
+        <div class="col-md-7">
+          <div class="form">
+            <h1>Sign Up</h1>
+            <p>Create account to continue</p>
+            <form id="signUp">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <select id="country" name ="country" class="form-control">
-                                <option selected>Select Country</option>
-                            </select>
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <select name ="state" id ="state" class="form-control">
-                                <option selected>Select State</option>
-                            </select>
-                          </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            
-                            <input
-                              type="password"
-                              class="form-control"
-                              placeholder="Password"
-                            />
-                          </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            
-                            <input
-                              type="password"
-                              class="form-control"
-                              placeholder="Comfirm Password"
-                            />
-                          </div>
-                    </div>
-
-                    <div class="mt-3">
-                        <input type="submit" class="btn btn-primary w-100">
-                    </div>
-                    </div>
+                    <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" />
+                  </div>
                 </div>
-                               
-                <!-- <p class="forgot">forgot password</p>
-                <h5 class="text-center text-primary">or continue with</h5> -->
+                <div class="col-md-6">
+
+                  <div class="mb-4">
+                    <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+
+                    <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+
+                  <div class="mb-4">
+                    <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <select name="sex" id="sex" class="form-control">
+                      <option value="male">Gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="male">Rather not say</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <select name="skLevel" id="skLevel" class="form-control">
+                      <option value="junior">Level</option>
+                      <option value="junior">Junior</option>
+                      <option value="intermediate">Intermediate</option>
+                      <option value="senior">Senior</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <select id="country" name="country" class="form-control">
+                      <option selected>Select Country</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <select name="state" id="state" class="form-control">
+                      <option selected>Select State</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mb-3">
+
+                    <input type="password" class="form-control" placeholder="Password" id="password" name="password" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+
+                    <input type="password" class="form-control" placeholder="Comfirm Password" />
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <input type="submit" class="btn btn-primary w-100">
+                </div>
+              </div>
+          </div>
+
+          <!-- <p class="forgot">forgot password</p>
+                <h5 class="text-center text-primary">or continue with</h5>
                 
-                <!-- <div class="icon">
+                <div class="icon ">
                   <ul class="list-group list-group-horizontal">
                     <li class="list-group-item-outline"><a href="#"><img src="/public/img/Google (icon — Colour).png" alt=""></a></li>
                     <li class="list-group-item-outline"><img src="/public/img/Vector.png" alt=""></a></li>
                     <li class="list-group-item-outline"><img src="/public/img/Facebook (icon — Colour).png" alt=""></a></li>
                   </ul>
                 </div> -->
-            </form>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
+  </section>
 
-    <script src="countries.js"></script>
+  <script src="countries.js"></script>
 
-    <script language="javascript">
-      populateCountries("country", "state");
-    </script>
-  </body>
+  <script language="javascript">
+    populateCountries("country", "state");
+  </script>
+  <!-- sweet alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
 </html>
