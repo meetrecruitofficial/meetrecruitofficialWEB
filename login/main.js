@@ -21,6 +21,7 @@ loginForm.addEventListener('submit', async function (evt) {
         .then(data => {
             const message = data.message;
             const token = data.token;
+            console.log(message, token)
             if (message) {
                 swal({
                     icon: "error",
