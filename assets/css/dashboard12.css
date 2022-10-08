@@ -42,5 +42,15 @@ h1{
     
 }
 .body-cover{
-   height: 80vh!important; 
+   height: 70vh!important; 
+   background: red;
+}
+.sec2{
+    height:50vh ;
+    background: blue;
+}
+.btn-12{
+    padding: .6rem 3rem!important;
+
+
 }

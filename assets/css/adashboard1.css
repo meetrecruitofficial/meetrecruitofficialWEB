@@ -17,19 +17,9 @@ h1{
     align-items: center;
 
 }
-nav .logo{
-
-    /* background: url("../img/meet-logo.png")no-repeat
-    center center/cover; */
-}
 button{
-    /* width: 100%; */
-    /* padding: 0.5rem 4rem!important;  */
     margin-bottom: 2rem!important; 
     border-color: #00557D;
-}
-.btn{
-    /* width: 50%!important; */
 }
 .sec1, .sec2{
     width: 100%!important;

@@ -7,60 +7,119 @@ h1{
     font-weight: 700!important;
     color: #00557D;
 }
-.btn-dark{
-    background: #00557D!important;
-    color: #fff!important;
-}
 .head{
     width: 100%!important;
     height: 100px!important;
     border-style: solid;
     border-color: #00557D;
 }
+.btn-primary{
+    color: #fff!important;
+    border: none!important;
+    background: #00557D!important;
+}
+.btn-outline-primary{
+    color: #00557D!important;
+    border-style: solid!important;
+    border-color: #00557D!important;
+}
 .navigation{
     width: 100%!important;
     height: 100px;
     align-items: center;
+
 }
-/* main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-} */
-.gallery{
-    
+button{
+    margin-bottom: 2rem!important; 
+    border-color: #00557D;
 }
-.img1,.img2,.img3,.img4,
-.img5,.img6,.img7,.img8, .img9{
-    height: 200px!important;
+.sec1, .sec2{
+    width: 100%!important;
 }
-.img9{
-    Width:368px;
-    Height:143px;
-}
-.img1{
-   
-    /* background: url("../img/d6-img1.png")no-repeat center center/cover!important; */
-} 
-.img2{
-    /* background: url("../img/d6-img2.png")no-repeat center center/cover!important; */
-} 
-.img3{
-    /* background: url("../img/d6-img3.png")no-repeat center center/cover!important; */
-}
-.img4{
-    /* background: url("../img/d6-img4.png")no-repeat center center/cover!important; */
-}
-.img5{
-    /* background: url("../img/d6-img5.png")no-repeat center center/cover!important; */
-}
-.img6{
-    /* background: url("../img/d6-img6.png")no-repeat center center/cover!important; */
-}
-.img6{
-    /* background: url("../img/d6-img7.png")no-repeat center center/cover!important; */
-}
-.img6{
-    /* background: url("../img/d6-img8.png")no-repeat center center/cover!important; */
-}
+#section-7 {
+    padding-top: 80px;
+  }
+  
+  #section-7 .talent1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img1.png");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img2.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img3.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img4.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img5.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img6.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img7.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  #section-7 .talent8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/d6-img8.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  #section-7 .talent9 {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #section-7 .talents h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    padding: 12px 8px;
+  }
