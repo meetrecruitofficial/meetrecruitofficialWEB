@@ -8,9 +8,24 @@ h1{
     font-weight: 700!important;
     color: #00557D;
 }
-.btn-dark{
+
+.btn-primary{
     background: #00557D!important;
     color: #fff!important;
+}
+.btn-primary:hover{
+    background: #062e43!important;
+    color: rgb(239, 225, 225)!important;
+}
+.btn-outline-primary{
+    color: #00557D!important;
+    border-style: solid!important;
+    border-color: #00557D!important;
+}
+.btn-outline-primary:hover{
+    color: #fff!important;
+    border: none!important;
+    background: #00557D!important;
 }
 .head{
     width: 100%!important;
@@ -36,9 +51,22 @@ main{
     justify-content: center;
     height: 80vh;
 }
+.accd{
+    /* width: 100%!important; */
+    height: 50vh;
+}
 .sec1{
     width: 60%;
 }
-.dropdown-menu:onclick{
-    display: block!important;
+.vid{
+
+}
+@media screen and (max-width: 500px) {
+    main{
+        display: block;
+        width: 100%;
+    }
+    .accd, .vid{
+        width: 50%;
+    }
 }
