@@ -299,7 +299,7 @@ function populateCountries(countryElementId, stateElementId){
 
 
 // post signUp form using fetch API
-const signupForm = document.getElementById('signUp')
+const signupForm = document.getElementById('login')
 
 signupForm.addEventListener('submit', async function (evt) {
     evt.preventDefault(); // to prevent the custom form property of reloading on submission.
