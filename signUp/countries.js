@@ -325,7 +325,7 @@ signupForm.addEventListener('submit', async function (evt) {
             lname: lname,
             phone: phone,
             sex: sex,
-            age: 50,
+            age: '50',
             country: country,
             skills :'Developer',
             level :skillLevel,
