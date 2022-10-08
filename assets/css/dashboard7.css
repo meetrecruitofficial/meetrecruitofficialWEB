@@ -18,6 +18,13 @@ h1{
     border-style: solid;
     border-color: #00557D;
 }
+a{
+    text-decoration: none!important;
+    color: black!important;
+}
+a:hover{
+    color: #00557D!important;
+}
 .navigation{
     width: 100%!important;
     height: 100px;

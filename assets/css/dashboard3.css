@@ -7,9 +7,13 @@ h1{
     font-weight: 700!important;
     color: #00557D;
 }
-.btn-dark{
+.btn-primary{
     background: #00557D!important;
     color: #fff!important;
+}
+.btn-primary:hover{
+    background: #062e43!important;
+    color: rgb(239, 225, 225)!important;
 }
 .head{
     width: 100%!important;
