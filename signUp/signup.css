@@ -32,6 +32,7 @@ line-height: 60px;
 .form {
 margin: 60px 100px;
 }
+
 }
 
 .btn-primary {
@@ -56,6 +57,20 @@ margin-top: 300px;
 .welcome {
 margin-top: 80px;
 }
+
+
+@media screen and (max-width: 799px) {
+  .welcome h1,
+  .welcome p{
+  display: none;
+  }
+
+  .logo-img {
+    margin-top: -65px;
+    float: left;
+    }
+
+  }
 
 
 
