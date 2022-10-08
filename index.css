@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    margin:10px;
+}
+nav{
+    background-color: gray;
+    height: 44px;
+    padding: 3px 6px 0 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.empty{
+    background-color: black;
+    padding: 0px 18px 0px 39px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    margin-top: 2px;
+}
+.fa-user-circle-o{
+    float: right;
+    text-align: right;
+    
+}
+.fa-plus{
+    border: black solid;
+    border-radius: 50px;
+    padding: 7px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 280px;
+}
+.header{
+    font-size: 21
+}
+.add{
+    display: none;
+     visibility: hidden;
+}
+.write-down{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.text{
+    height: 150px;
+    min-width: 150px;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 90px;
+    height: 39px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.next{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+}
+.skip{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: solid black;
+}
+.add-education{
+    position: absolute;
+    top: 290px;
+    left: 60px;
+    font-size: 14px;
+}
+.pass-container{
+    margin: 54px;
+}
+.pass{
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+}
+.pass-header{
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 160px;
+    margin-bottom: 18px;
+}
+.continue{
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 140px;
+}
+.courses-container{
+    box-sizing: border-box;
+    border: solid;
+    padding: 19px;
+    width: 210px;
+    margin: 10px;
+}
+li{
+    list-style: none;
+    padding: 8px 8px 8px 0px;
+}
+.course-list{
+    font-size: 15px;
+    font-weight: bold;
+}
+.course-video{
+    box-sizing: border-box;
+    border: solid;
+    padding: 28px;
+    width: 210px;
+    margin: 10px;
+    height: 230px;
+    display: flex;
+}
+.next-course{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: none;
+    margin: 8px;
+    float: right;
+}
+.previous-course{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: solid;
+    margin-left: 38px;
+    left: 7899px;;
+}
+.my-courses{
+    padding: 5px;
+}
+video{
+    min-width: 100px
+}
+.fa-chevron-down, .fa-chevron-up, .fa-chevron-right{
+    padding-left:20px;
+}
+.fa-play, .fa-book{
+    padding-right: 8px;
+}
+@media only screen and (min-width:308px){
+    .fa-plus{
+        left: 20px;
+        top: 280px;
+    }
+    .header{
+        font-size: 21px
+    }
+    .text{
+        height: 200px;
+        min-width: 290px;
+    }
+    .courses-container{
+        width: 300px;
+        margin: 18px;
+    }
+    li{
+        font-size: 17px;
+    }
+    .course-video{
+        width: 300px;
+        margin: 18px;
+        height: 230px;
+    }
+    .course-list{
+        font-size:17px ;
+    }
+    .course-head{
+        font-size: 34px;
+    }
+}
+@media only screen and (min-width:618px){
+.header{ 
+    font-size: 38px;
+}
+.fa-plus{
+    left: 32px;
+    top: 300px;
+}
+.text{
+    height: 200px;
+    min-width: 450px;
+}
+.add-education{
+    top: 315px;
+    left: 70px;
+    font-size: 16px;
+}
+.course-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.courses-container, .course-video{
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 48px;
+}
+.my-course{
+    font-size: 31px;
+}
+.course-list{
+    font-size: 21px;
+    
+}
+.course-head{
+    font-size: 40px;
+}
+.previous-course{
+    margin-left: 460px;
+}
+.fa-chevron-down, .fa-chevron-up, .fa-chevron-right{
+    padding-left:50px;
+}
+}
+@media only screen  and (min-width:1200px){
+    .header{
+        font-size: 39px;
+    }
+    .write-down{
+        font-size: 18px;
+    }
+    .text{
+        height: 300px;
+        min-width: 650px;
+    }
+    .fa-plus{
+        top: 410px;
+    }
+    .add-education{
+        top: 420px;
+        font-size: 16px;
+    }
+    .my-course{
+        font-size: 35px;
+    }
+    .course-list{
+        font-size: 21px;
+    }
+    .course-head{
+        font-size: 49px;
+    }
+    .previous-course{
+        margin-left: 750px;
+    }
+    .fa-chevron-down, .fa-chevron-up, .fa-chevron-right{
+        padding-left:80px;
+    }
+}
