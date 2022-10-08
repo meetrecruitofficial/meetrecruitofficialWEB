@@ -359,7 +359,7 @@ signupForm.addEventListener('submit', async function (evt) {
                     text: "Sign-Up successful",
                     button: false,
                 })
-                setTimeout(() => { location.assign('/'); }, 1700);
+                setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
                 // setTimeout(() => { location.assign('/index'); }, 1000);
             }
         })
