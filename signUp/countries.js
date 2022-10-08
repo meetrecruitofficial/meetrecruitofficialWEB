@@ -316,6 +316,7 @@ signupForm.addEventListener('submit', async function (evt) {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
    
+	                setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
 
     await fetch('https://meetrecruitofficial.cyclic.app/api/register',{
         method: 'POST',

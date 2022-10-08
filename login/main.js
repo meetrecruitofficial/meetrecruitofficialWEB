@@ -7,6 +7,7 @@ loginForm.addEventListener('submit', async function (evt) {
     const email = document.getElementById('login-email').value;
     const password = document.getElementById('login-password').value;
    
+                    setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
 
     await fetch('https://meetrecruitofficial.cyclic.app/api/sign-in',{
         method: 'POST',
