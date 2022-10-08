@@ -23,7 +23,8 @@ h1{
 }
 .btn-outline-primary{
     background: none!important;
-    outline-style: solid #00557D;
+    outline-style: solid!important;
+    color: #00557D!important;
 }
 .btn-dark{
     /* width: 100%; */

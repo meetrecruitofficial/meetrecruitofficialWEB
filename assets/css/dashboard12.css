@@ -11,7 +11,8 @@ h1{
 .head{
     width: 100%!important;
     height: 100px!important;
-    border-style: solid #00557D;
+    border-style: solid; 
+    border-color: #00557D;
 }
 .navigation{
     width: 100%!important;
@@ -30,7 +31,8 @@ h1{
 }
 .btn-outline-primary{
     background: none!important;
-    outline-style: solid #00557D;
+    outline-style: solid!important;
+    color: #00557D!important;
 }
 .btn-dark{
     background: #00557D!important;
@@ -55,9 +57,11 @@ h1{
 
 }
 .btn-12{
-    padding: .6rem 3rem!important;
+    padding: .6rem 1rem!important;
 }
 .v-rule{
-    width: .2rem!important;
-    /* height: 100%; */
+    border-left: 1.5px solid #00557D!important;
+}
+select, input{
+    height: 2rem;
 }

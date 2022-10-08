@@ -9,7 +9,8 @@ h1{
 .head{
     width: 100%!important;
     height: 100px!important;
-    border-style: solid #00557D;
+    border-style: solid; 
+    border-color: #00557D;
 }
 .navigation{
     width: 100%!important;
