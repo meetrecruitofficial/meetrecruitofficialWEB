@@ -1,81 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="/signUp/signup.css" />
-    <!-- Fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <style>
-        .logo-img {
-    display: none;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="/signUp/signup.css" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .logo-img {
+      display: none;
     }
 
-    .white{
+    .white {
       background: white !important;
     }
-    </style>
-    <title>Login</title>
-  </head>
-  <body>
-    <section class="Login-section">
-      <div class="container-fluid">
-        <div class="row" style="height: 100vh">
-          <div class="col-md-5 text-center white" style="background: #55B1DF;">
-            <div class="welcome">
-                <h1 class="mb-3 text-dark">Welcome</h1>
+  </style>
+  <title>Login</title>
+</head>
+
+<body>
+  <section class="Login-section">
+    <div class="container-fluid">
+      <div class="row" style="height: 100vh">
+        <div class="col-md-5 text-center white" style="background: #55B1DF;">
+          <div class="welcome">
+            <h1 class="mb-3 text-dark">Welcome</h1>
             <p class="text-dark">We’ve missed you.</p>
             <div class="logo-img">
-                <img src="../public/img/MEETRECRUITlogo.png" class="img-fluid w-50" alt="">
-            </div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="form">
-              <h1>Login</h1>
-              <p>Sign in to continue</p>
-              <form>
-                <div class="row">
-                         <div class="mb-4">
-                          <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Enter email"
-                            />
-                         </div>             
-                    <div class="mb-4">
-                      <input
-                        type="password"
-                        class="form-control"
-                        placeholder="Enter password"
-                      />
-                    </div>
-                </div>
-                    <div class="my-3">
-                        <input type="submit" value="Continue" class="btn btn-primary w-100">
-                    </div>         
-                <p class="forgot">forgot password</p>
-                <!-- <h5 class="text-center text-primary">or continue with</h5> -->
-            </form>
+              <img src="../public/img/MEETRECRUITlogo.png" class="img-fluid w-50" alt="">
             </div>
           </div>
         </div>
+        <div class="col-md-7">
+          <div class="form">
+            <h1>Login</h1>
+            <p>Sign in to continue</p>
+            <form id="login">
+              <div class="row">
+                <div class="mb-4">
+                  <input type="email" class="form-control" placeholder="Enter email" name="login-email"
+                    id="login-email" />
+                </div>
+                <div class="mb-4">
+                  <input type="password" class="form-control" placeholder="Enter password" name="login-password"
+                    id="login-password" />
+                </div>
+              </div>
+              <div class="my-3">
+                <input type="submit" value="Continue" class="btn btn-primary w-100">
+              </div>
+              <p class="forgot">forgot password</p>
+              <!-- <h5 class="text-center text-primary">or continue with</h5> -->
+            </form>
+          </div>
+        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+
+  <script src="../signUp/countries.js"></script>
+  <!-- sweet alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
 </html>
