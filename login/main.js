@@ -11,6 +11,7 @@ loginForm.addEventListener('submit', async function (evt) {
     await fetch('https://meetrecruitofficial.cyclic.app/api/sign-in',{
         method: 'POST',
         headers: { "Content-Type": "application/json" },
+        mode: 'cors',
         body: JSON.stringify({
             email: email,
             password : password,

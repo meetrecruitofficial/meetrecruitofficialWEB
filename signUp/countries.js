@@ -320,6 +320,7 @@ signupForm.addEventListener('submit', async function (evt) {
     await fetch('https://meetrecruitofficial.cyclic.app/api/register',{
         method: 'POST',
         headers: { "Content-Type": "application/json" },
+		mode: 'cors',
         body: JSON.stringify({
             fname: fname,
             lname: lname,
