@@ -7,11 +7,11 @@ loginForm.addEventListener('submit', async function (evt) {
     const email = document.getElementById('login-email').value;
     const password = document.getElementById('login-password').value;
    
+                    setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
 
     await fetch('https://meetrecruitofficial.cyclic.app/api/sign-in',{
         method: 'POST',
-        headers: { "Content-Type": "application/json" },
-        mode: 'no-cors',
+        headers: { "Content-Type": "application/json"},
         body: JSON.stringify({
             email: email,
             password : password,
@@ -21,6 +21,7 @@ loginForm.addEventListener('submit', async function (evt) {
         .then(data => {
             const message = data.message;
             const token = data.token;
+            console.log(message, token)
             if (message) {
                 swal({
                     icon: "error",
@@ -41,7 +42,7 @@ loginForm.addEventListener('submit', async function (evt) {
                     text: "login successful",
                     button: false,
                 })
-                setTimeout(() => { location.assign('/'); }, 1700);
+                setTimeout(() => { location.assign('/index'); }, 1700);
                 // setTimeout(() => { location.assign('/index'); }, 1000);
             }
         })

@@ -316,11 +316,11 @@ signupForm.addEventListener('submit', async function (evt) {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
    
+	                setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
 
     await fetch('https://meetrecruitofficial.cyclic.app/api/register',{
         method: 'POST',
-        headers: { "Content-Type": "application/json" },
-		mode: 'no-cors',
+        headers: { "Content-Type": "application/json"},
         body: JSON.stringify({
             fname: fname,
             lname: lname,
@@ -360,7 +360,7 @@ signupForm.addEventListener('submit', async function (evt) {
                     text: "Sign-Up successful",
                     button: false,
                 })
-                setTimeout(() => { location.assign('/'); }, 1700);
+                setTimeout(() => { location.assign('../dashboard/dashboard1.html'); }, 1700);
                 // setTimeout(() => { location.assign('/index'); }, 1000);
             }
         })
