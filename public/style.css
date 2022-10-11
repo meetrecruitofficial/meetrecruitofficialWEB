@@ -30,6 +30,7 @@ nav ul li a {
 
 p {
   color: #212121;
+  
 }
 
 .hero h1 {
@@ -218,19 +219,21 @@ ul li span {
 
 #footer .foot {
   text-align: left;
+  align-items: flex-start;
+  margin: 0;
 }
 
 #footer .foot ul li {
   list-style: none;
   font-size: 16px;
-  left: 0;
+ 
   color: #fff;
+  
 }
 
 #footer .foot input {
   padding: 11px, 16px, 11px, 16px;
   border-radius: 10px;
-  width: 314px;
   height: 54px;
 }
 
@@ -254,7 +257,8 @@ ul li span {
   border: none;
   border-radius: 10px;
   transition: all 0.5s ease;
-}
+} 
+
 
 .links ul li {
   width: 40px;
@@ -266,316 +270,21 @@ ul li span {
   align-items: center;
 }
 
+/* .inside {
+  position: relative;
+}
+
+#me {
+  position: absolute;
+  bottom: 12.5px;
+  right: 75px;
+} */
 /* ====================Media ========================================*/
 
-/* Header and Navbar */
-@media (max-width: 844px) {
-  .menu {
-    display: block;
-    font-size: 25px;
-    color: #00557d;
-  }
 
-  .links .btn {
-    display: block;
-  }
-
-  .navbar .btnz {
-    display: none;
-  }
-
-  #link {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background: linear-gradient(65.58deg, #f1f4f5 -21.97%, #fffafa 105.82%);
-    z-index: 99;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.3);
-    padding: 60px 0 0 10px;
-    transition: 0.3s ease;
-  }
-
-  #link.active {
-    right: 0px;
-  }
-
-  .links .btn {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .navbar .links ul li {
-    padding: 25px;
-    font-size: 16px;
-  }
-
-  .navbar .links ul button {
-    padding: 25px;
-  }
-
-  .btn #signup {
-    margin-bottom: 35px;
-  }
-
-  .btn #login {
-    margin-left: 25px;
-    width: 110px;
-  }
-
+@media screen and (max-width: 1206px) {
   .hero h1 {
-    line-height: 70px;
-    font-size: 49px;
-    line-height: 60px;
+    padding-top: 40px !important;
   }
-
-  .hero p {
-    padding: 10px 0;
+  
   }
-
-  /* .btns {
-    position: absolute;
-    bottom: 55px;
-  } */
-
-  .btns {
-    margin-top: -100px;
-    padding: 10px 0;
-  }
-
-  #close {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    font-size: 25px;
-    color: #00557d;
-  }
-}
-
-/* section 3 */
-
-@media (max-width: 844px) {
-  .section-3 {
-    gap: 10px;
-  }
-  .section-3 .content h1 {
-    font-size: 28px;
-  }
-}
-
-/* section 4 */
-
-@media screen and (max-width: 768px) {
-  .con {
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-  }
-  .one {
-    width: 100%;
-    height: 80%;
-  }
-  .one .img {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 50%;
-    background: url("/public/img/new-sec44.png") no-repeat center center/cover;
-  }
-  .two {
-    width: 90%;
-    height: 80%;
-    margin-left: 10px;
-  }
-  .two .txt {
-    width: 90%;
-    height: 100%;
-    padding-left: 10%;
-    display: flex;
-    flex-direction: column;
-  }
-  .two h1 {
-    font-family: "Nunito";
-    font-size: 32px;
-    text-align: center;
-  }
-  .two p {
-    font-family: "Poppins";
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-
-/* section 7*/
-
-.sectionSeven > div:first-of-type {
-  left: 0;
-}
-
-.sectionSeven > div:first-of-type p:first-of-type {
-  color: #00557d;
-  font-size: 30px !important;
-}
-
-.sectionSeven > p a {
-  color: #00557d;
-  text-decoration: none;
-}
-
-.sectionSeven > div:last-of-type {
-  display: grid;
-  grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(3, 100px);
-  row-gap: 20px;
-  column-gap: 10px;
-}
-
-.sectionSeven div:last-of-type a:last-of-type {
-  width: 60%;
-  height: 40px;
-  position: relative;
-  top: 30px;
-  left: 40px;
-  background: #00557d;
-  color: white;
-}
-
-/* ========================================================== */
-
-@media (max-width: 477px) {
-  .navbar {
-    width: 100%;
-  }
-
-  .hero h1 {
-    width: 100%;
-    font-size: 40px;
-    line-height: 60px;
-  }
-  .btns #btn1 {
-    width: 90%;
-    margin: 15px;
-  }
-
-  .btns #btn2 {
-    width: 90%;
-    margin: 15px;
-    margin-left: 15px;
-  }
-}
-
-/* Section 2  */
-
-@media (max-width: 844px) {
-  .second-section {
-    display: block;
-  }
-  .second-section-txt {
-    margin-top: 50px;
-    padding: 0 10px;
-    width: 410px;
-    height: 324px;
-  }
-  .second-section-img {
-    width: 300px;
-    height: 100%;
-  }
-  .why-txt {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 200px;
-    font-size: 20px;
-    line-height: 28px;
-    align-items: center;
-    letter-spacing: 0.25px;
-    color: #212121;
-    margin-top: 10px;
-  }
-}
-
-/* section 4 */
-
-@media screen and (max-width: 477px) {
-  .con {
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .one {
-    width: 100%;
-    height: 100%;
-  }
-  .one .img {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 50%;
-    background: url("/public/img/new-sec44.png") no-repeat center center/cover;
-  }
-  .two {
-    width: 100%;
-    height: 50%;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .two h1 {
-    width: 100%;
-    font-family: "Nunito";
-    font-size: 32px;
-  }
-  .two p {
-    width: 100%;
-    font-family: "Poppins";
-    margin-top: 1rem;
-    font-size: 16px;
-  }
-}
-
-/* section 7 */
-
-.sectionSeven > div:first-of-type {
-  left: 0;
-}
-
-.sectionSeven > div:first-of-type p:first-of-type {
-  color: #00557d;
-  font-size: 25px !important;
-}
-
-.sectionSeven > p a {
-  color: #00557d;
-  text-decoration: none;
-}
-
-.sectionSeven > div:last-of-type {
-  display: grid;
-  grid-template-columns: repeat(2, 150px);
-  grid-template-rows: repeat(3, 100px);
-  row-gap: 20px;
-  column-gap: 10px;
-}
-
-.sectionSeven div:last-of-type a:nth-child(7) {
-  height: 100px !important;
-}
-
-.sectionSeven div:last-of-type a:nth-child(8) {
-  height: 100px !important;
-}
-
-.sectionSeven div:last-of-type a:last-of-type {
-  width: 60%;
-  height: 40px;
-  position: relative;
-  left: 120px;
-  background: #00557d;
-  color: white;
-}
